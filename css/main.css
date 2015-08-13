@@ -1,3 +1,9 @@
+/*Styling Guide*/
+/*1. universal stylying*/
+/*2. navbar styling*/
+/*3.image slider*/
+
+/*1. universal stylying*/
 *{
 	margin: 0;
 	padding: 0;
@@ -52,6 +58,7 @@ a:hover{
 	text-decoration: underline;
 }
 
+/*2. navbar styling*/
 header{
 	background: #405580;
 	width: 100%;
@@ -106,6 +113,20 @@ nav ul li{
 	text-decoration:underline;
 }
 
+/*3.image slider*/
+#doc{
+	margin: 40px 0;
+}
+
+#content{
+	margin: 0 auto;
+	max-width: 1140px;
+}
+
+.blueberry{
+	width: 960px;
+	margin-top: 110px;
+}
 
 
 
