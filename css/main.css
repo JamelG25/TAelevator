@@ -1,7 +1,8 @@
 /*Styling Guide*/
 /*1. universal stylying*/
 /*2. navbar styling*/
-/*3.image slider*/
+/*3. image slider*/
+/*4. section*/
 
 /*1. universal stylying*/
 *{
@@ -88,6 +89,7 @@ nav{
 }
 
 #menu-icon{
+	/*visibility: hidden;*/
 	display: hidden;
 	width: 40px;
 	height: 40px;
@@ -104,7 +106,7 @@ ul{
 
 nav ul li{
 	display: inline-block;
-	float: left;	
+	float: left;
 	padding: 10px;
 }
 
@@ -121,6 +123,7 @@ nav ul li{
 	width: 100%;
 	padding: 0;
 	margin: 0;
+	margin-top: 110px;
 }
 
 .rslides li {
@@ -146,8 +149,17 @@ nav ul li{
 	border: 0;
 }
 
+/*4. section*/
+section{
+	width: 29%;
+	float: left;
+	margin: 2% 2%;
+	text-align: center;
+}
 
-
+.clear{
+	clear: both;
+}
 
 
 
