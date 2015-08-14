@@ -4,126 +4,117 @@
 		<meta charset="utf-8">
 		<title>Total Access Elevator</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
-		<link rel="stylesheet" href="css/blueberry.css" />
 		<link rel="stylesheet" href="css/main.css">
-		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-		<script src="js/jquery.blueberry.js"></script>
+	</head>	
+	<body>
+
+		<header>
+			<!-- logo on the top left of the header -->
+			<a href="#" id="logo"></a>
+			<nav>
+				<!-- the hamburger image when resize the page to mobile this will display -->
+				<a href="#" id="menu-icon"></a>
+				<ul>
+					<li><a href="#" class="current">Home</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+			<ul class="rslides">
+				<li><img src="images/2homeelevator.jpg"></li>
+				<li><img src="images/3fixelevator.jpg"></li>
+				<li><img src="images/1elevator.jpg"></li>
+			    <li><img src="images/4reelevator.jpg"></li>
+			</ul>
+		<section>
+			<img src="images/aboutus.png">
+			<h1>Who Are We</h1>
+			<p>Total Access Elevators is a Southern California independently owned elevator company.
+	We have over 100 years of experience and we employ only the highest quality certified technicians.</p>
+		</section>
+
+		<section>
+			<img src="images/services.png">
+			<h1>What We Do</h1>
+			<p>Performance Elevators provides elevator maintenance, repairs, modernization, and installations
+			 in Southern California</p>
+		</section>
+
+		<section>
+			<img src="images/contact.png">
+			<h1>Contact Us</h1>
+			<p>if you have a customer concern that needs further assistance, please contact us.</p>
+		</section>
+
+		<div class="clear"></div>
+		<article>
+			<img src="images/2homeelevator.jpg">
+		</article>
+		<aside>
+			<h2>Why Choose Total Access Elevator?</h2>
+			<ul class="elevator">
+				<li><h3>Personal Attention: We provide our valued customers with unsurpassed personal attention.</h3></li>
+				<li><h3>Competitive Costs: Our goal is to provide our customers with quality service at competitive costs.</h3></li>
+				<li><h3>Shorter Downtimes: When you include our highly experienced techncians into your elevator projects, you can count on projects that are completed with precision and shorter downtimes.</h3></li>
+			</ul>
+			<button></button>
+		</aside>
+
+		<div class="clear"></div>
+		<section>
+			<img src="images/granelevator.jpg">
+			<h1>Modernization</h1>
+			<p>Our experience technicians perform elevator modernizations on geared, gearless, and hydraulic elevators. We only install the best non-proprietary equipment that will deliver better energy efficiency, performance, and reliability.</p>
+		</section>
+		<section>
+			<img src="images/tyelevator.jpeg">
+			<h1>Types of Elevators</h1>
+			<p>Geared<br>
+			   Gearless<br>
+			   Hydraulic<br>
+			   We also maintain MCE, Thyssen Krupp, Schindler, Otis, Dover, Kone, Mitsubishi, and other obsolete manufacturers.</p>
+		</section>
+		<section>
+			<img src="images/maintenance.jpeg">
+			<h1>Maintenance</h1>
+			<p>fLike any equipment, elevators need maintenance and repairs on a regular basis to keep mechanical and electrical equipment running with optimal performance.</p>
+		</section>
+
+		<footer>
+			<section>
+				<h3><b>Total Access Elevator</b></h3>
+				<p><b>310-123-4567</b><br><br>
+				23139 Elevator Ave <br>
+				Redondo, CA, 91503 <br>
+				totalaccesselevator@gmail
+				</p>
+			</section>
+			<section>
+				<h3><b>Connect With Us!</b></h3>
+				<ul class="social">
+					<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/facebook1.png"></a></li>
+					<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/googleplus.png"></a></li>
+					<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/twitter1.png"></a></li>
+					<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/youtube1.png"></a></li>
+				</ul>
+			</section>
+			<section>
+				<img src="images/taelogo.jpg">
+			</section>
+		</footer>
+		<footer class="second">
+			<p>CopyRight - Jamel Guerrero, 2015.</p>
+		</footer>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="responsiveslides.min.js"></script>
 		<script>
-			$(window).load(function() {
-				  $('.blueberry').blueberry();
+			$(function() {
+				$(".rslides").responsiveSlides();
 			});
 		</script>
-	</head>	
-<body>
-
-	<header>
-		<!-- logo on the top left of the header -->
-		<a href="#" class="logo"></a>
-		<nav>
-			<!-- the hamburger image when resize the page to mobile this will display -->
-			<a href="#" id="menu-icon"></a>
-			<ul>
-				<li><a href="#" class="current">Home</a></li>
-				<li><a href="#">About Us</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
-	</header>	
-	<div id="doc">
-		<div id="content">
-			<div class="blueberry">
-				<ul class="slide">
-					<li><img src="images/homeelevator.jpg"></li>
-					<li><img src="images/fixelevator.jpeg"></li>
-					<li><img src="images/elevator.jpeg"></li>
-					<li><img src="images/granelevator.jpg"></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<section>
-		<img src="images/aboutus.png">
-		<h1>Who Are We</h1>
-		<p>Total Access Elevators is a Southern California independently owned elevator company.
-We have over 100 years of experience and we employ only the highest quality certified technicians.</p>
-	</section>
-
-	<section>
-		<img src="images/services.png">
-		<h1>What We Do</h1>
-		<p>Performance Elevators provides elevator maintenance, repairs, modernization, and installations
-		 in Southern California</p>
-	</section>
-
-	<section>
-		<img src="images/contact.png">
-		<h1>Contact Us</h1>
-		<p>if you have a customer concern that needs further assistance, please contact us.</p>
-	</section>
-	
-	<div class="clear"></div>
-	<article>
-		<img src="images/reelevator.jpeg">
-	</article>
-	<aside>
-		<h2>Why Choose Total Access Elevator?</h2>
-		<ul class="elevator">
-			<li><h3>Personal Attention: We provide our valued customers with unsurpassed personal attention.</h3></li>
-			<li><h3>Competitive Costs: Our goal is to provide our customers with quality service at competitive costs.</h3></li>
-			<li><h3>Shorter Downtimes: When you include our highly experienced techncians into your elevator projects, you can count on projects that are completed with precision and shorter downtimes.</h3></li>
-		</ul>
-		<button></button>
-	</aside>
-	
-	<div class="clear"></div>
-	<section>
-		<img src="images/granelevator.jpg">
-		<h1>Modernization</h1>
-		<p>Our experience technicians perform elevator modernizations on geared, gearless, and hydraulic elevators. We only install the best non-proprietary equipment that will deliver better energy efficiency, performance, and reliability.</p>
-	</section>
-	<section>
-		<img src="images/tyelevator.jpeg">
-		<h1>Types of Elevators</h1>
-		<p>Geared<br>
-		   Gearless<br>
-		   Hydraulic<br>
-		   We also maintain MCE, Thyssen Krupp, Schindler, Otis, Dover, Kone, Mitsubishi, and other obsolete manufacturers.</p>
-	</section>
-	<section>
-		<img src="images/maintenance.jpeg">
-		<h1>Maintenance</h1>
-		<p>fLike any equipment, elevators need maintenance and repairs on a regular basis to keep mechanical and electrical equipment running with optimal performance.</p>
-	</section>
-
-	<footer>
-		<section>
-			<h3><b>Total Access Elevator</b></h3>
-			<p><b>310-123-4567</b><br><br>
-			23139 Elevator Ave <br>
-			Redondo, CA, 91503 <br>
-			totalaccesselevator@gmail
-			</p>
-		</section>
-		<section>
-			<h3><b>Connect With Us!</b></h3>
-			<ul class="social">
-				<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/facebook1.png"></a></li>
-				<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/googleplus.png"></a></li>
-				<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/twitter1.png"></a></li>
-				<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/youtube1.png"></a></li>
-			</ul>
-		</section>
-		<section>
-			<img src="images/taelogo.jpg">
-		</section>
-	</footer>
-	<footer class="second">
-		<p>CopyRight - Jamel Guerrero, 2015.</p>
-	</footer>
-
-
-</body>
+	</body>
 </html>
