@@ -89,15 +89,15 @@ nav{
 	padding: 35px 20px 20px 0;
 }
 
-.menu-icon{
-	/*visibility: hidden;*/
-	display: hidden;
-	width: 40px;
-	height: 40px;
-	background: url(http://www.w3newbie.com/wp-content/uploads/icon.png) center;
+.bacon{
+	visibility: hidden;
+	/*display: hidden;*/
+	width: 50px;
+	height: 50px;
+	background: url(../images/menu.png) center;
 }
 
-a:hover.menu-icon{
+a:hover.bacon{
 	border-radius: 4px 4px 0 0;
 }
 
