@@ -215,6 +215,35 @@ footer p a {
 	opacity: 0.95;
 }
 
+/*-----------MEDIA Queries-----------*/
+
+@media screen and (max-width: 478px) {
+	body{
+		position: absolute;
+	}
+}
+
+@media screen and (max-width: 478px) {
+	header{
+		position: absolute;
+	}
+	.bacon{
+		display: inline-block;
+	}
+	nav ul, nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #405580;
+		border: 1px solid #ffffff;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 2px 0 2px 2px;
+	}
+}
+
+
 
 
 
