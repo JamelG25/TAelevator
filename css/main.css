@@ -3,6 +3,7 @@
 /*2. navbar styling*/
 /*3. image slider*/
 /*4. section*/
+/*5. footer*/
 
 /*1. universal stylying*/
 *{
@@ -181,6 +182,7 @@ ul .elevator li{
 	padding-left: 3%;
 }
 
+/*5. footer*/
 footer{
 	background: #333333;
 	width: 100%;
@@ -192,8 +194,18 @@ footer p,footer h3{
 	color: #ffffff;
 }
 
+footer p a{
+	color: #fff;
+	text-decoration:none;
+}
 
+.social li{
+	display: inline;
+}
 
+.social li img{
+	height: 50px;
+}
 
 
 
