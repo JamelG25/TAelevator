@@ -86,18 +86,18 @@ header{
 
 nav{
 	float: right;
-	padding: 33px 20px 20px 0;
+	padding: 35px 20px 20px 0;
 }
 
-#menu-icon{
+.menu-icon{
 	/*visibility: hidden;*/
 	display: hidden;
 	width: 40px;
 	height: 40px;
-	background: url("http://www.w3newbie.com/wp-content/uploads/icon.png") center;
+	background: url(http://www.w3newbie.com/wp-content/uploads/icon.png) center;
 }
 
-a:hover#menu-icon{
+a:hover.menu-icon{
 	border-radius: 4px 4px 0 0;
 }
 
@@ -209,6 +209,10 @@ footer p a {
 
 .second {
 	border-top: 2px solid #4D4E50;
+	background-color:#333333;
+	max-height: 50px;
+	text-align: center;
+	opacity: 0.95;
 }
 
 
