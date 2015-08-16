@@ -194,21 +194,22 @@ footer p,footer h3{
 	color: #ffffff;
 }
 
-footer p a{
+footer p a {
 	color: #fff;
 	text-decoration:none;
 }
 
-.social li{
+.social li {
 	display: inline;
 }
 
-.social li img{
+.social li img {
 	height: 50px;
 }
 
-
-
+.second {
+	border-top: 2px solid #4D4E50;
+}
 
 
 
