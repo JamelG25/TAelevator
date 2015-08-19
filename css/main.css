@@ -4,6 +4,7 @@
 /*3. image slider*/
 /*4. section*/
 /*5. footer*/
+/*6. button*/
 
 /*1. universal stylying*/
 *{
@@ -222,6 +223,23 @@ footer p a {
 	text-align: center;
 	opacity: 0.95;
 }
+
+.greenb{
+	background-clip: border-box;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #fff;
+	outline: none;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	padding: 0 20px;
+	text-transform: uppercase;
+	line-height: 40px;
+	display: inline-block;
+	zoom: 1;
+}
+
 
 /*-----------MEDIA Queries-----------*/
 
