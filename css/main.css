@@ -185,6 +185,7 @@ aside{
 	background: #CFC8C8;
 	width: 100%;
 	overflow: hidden;
+	margin-bottom: 20px;
 }
 
 ul .elevator li{
@@ -225,6 +226,7 @@ footer p a {
 }
 
 .greenb{
+	background-color: #6EAE13;
 	background-clip: border-box;
 	border: 1px solid transparent;
 	border-radius: 4px;
@@ -238,6 +240,43 @@ footer p a {
 	line-height: 40px;
 	display: inline-block;
 	zoom: 1;
+	margin-bottom: 15px;
+}
+
+.redb{
+	background-color: #CB4943;
+	background-clip: border-box;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #fff;
+	outline: none;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	padding: 0 20px;
+	text-transform: uppercase;
+	line-height: 40px;
+	display: inline-block;
+	zoom: 1;
+	margin-bottom: 15px;
+}
+
+.blueb{
+	background-color: #55ACEE;
+	background-clip: border-box;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #fff;
+	outline: none;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	padding: 0 20px;
+	text-transform: uppercase;
+	line-height: 40px;
+	display: inline-block;
+	zoom: 1;
+	margin-bottom: 15px;
 }
 
 
